@@ -1,0 +1,38 @@
+.tolearn-form {
+  padding: 1 rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.tolearn-form__input {
+  color: #77a05f;
+  border-radius: 8px;
+  border: 0.4em solid #61dafbaa;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  /* transition: border-color 0.25s; */
+}
+
+.tolearn-form__button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  color: antiquewhite;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #e5921a;
+  cursor: pointer;
+  /* transition: border-color 0.25s; */
+  /* filter: drop-shadow(0 0 2em #61dafbaa); */
+}
+.tolearn-form__button:hover {
+  border-color: #61dafbaa;
+  background-color: #61dafbaa;
+}
+.tolearn-form__button:focus,
+.tolearn-form__button:focus-visible {
+  outline: 0.1em auto -webkit-focus-ring-color;
+}
